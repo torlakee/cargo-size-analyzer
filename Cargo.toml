@@ -1,0 +1,14 @@
+[package]
+name = "cargo-size-analyzer"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+object = "0.32"
+rustc-demangle = "0.1"
+clap = { version = "4", features = ["derive"] }
+anyhow = "1"
+tabled = "0.15.0"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+csv = "1.3"
